@@ -1,0 +1,710 @@
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+/* first block */
+.main{
+	background-image: url(../img/back-head.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+  	background-attachment: scroll;
+  	min-height: 610px;
+  	position: relative;
+}
+.main .container{
+	padding-top: 20px;
+}
+.menu__items {
+	padding-top: 8px;
+}
+.menu__item {
+	margin: 0 28px;
+}
+.menu__item a{
+  color: #fff;
+  font-family: 'TTNormsPro-Medium';
+  font-size: calc(11pt + 9 * ((100vw - 320px) / (1080-320)));
+  line-height: 27px;
+  padding: 0px 15px;
+  transition: all .3s;
+  text-decoration: none;
+}
+.menu__item a:hover{
+  color: #ffef97;
+}
+.logo-link {
+	padding-top: 220px;
+}
+.big-logo img {
+	width: 320px;
+	filter: drop-shadow(2px 2px 0px #222);
+}
+.link{
+	max-width: 140px;
+    margin: auto;
+}
+.link img{
+	width: 10px;
+	transform: rotate(180deg);
+}
+.link a{
+    padding: 5px 13px 6px 12px;
+    border-radius: 5px;
+    background-color: #8E89C1;
+	display: block;
+	font-family: 'TTNormsPro-Light';
+	color: #fff;
+	font-size: 10.5pt;
+	text-decoration: none;
+	line-height: 30px;
+}
+.link a:hover{
+	background-color: #FFD284;
+	color: #fff;
+	transition: all .3s;
+}
+.link span {
+	margin-left: 5px;
+}
+
+
+/* second block */
+
+.introduction {
+	background-color: #f0f3f6;
+	min-height: 620px;
+}
+.definition{
+	/*max-width: 900px;*/
+	left: 50%;
+	transform: translate(-50%, 0);
+	position: absolute;
+	z-index: 10;
+	margin-top: -100px;
+	background-color: #fff;
+	padding: 80px 110px 80px 110px;
+}
+.definition__finger img {
+	width: 54px;
+}
+.definition__items {
+	/*overflow: hidden;*/
+}
+.definition__items #logo {
+	width: calc(100px + 47 * ((100vw - 320px) / (1080-320)));
+}
+.definition__items #devider {
+	width: 26px;
+}
+.definition__items span {
+	padding-bottom: 20px;
+	display: inline;
+	font-family: 'TTNormsPro-Medium';
+	font-size: calc(13px + 9 * ((100vw - 320px) / (1080-320)));
+	/*font-size: 15pt;*/
+	line-height: 25px;
+}
+.row .reader {
+	position: absolute;
+	max-width: 31.481vw;
+	margin-top: 260px;
+}
+.reader__picture img{
+	min-width: 155px;
+	width: 26.481vw;
+	max-width: 340px;
+	box-shadow: 20px 25px 0px #ffd284;
+}
+.arrows_and_text {
+	position: absolute;
+	margin-top: 260px !important;
+	max-width: 500px !important;
+}
+.arrows_and_text img {
+	position: absolute;
+	margin: auto;
+	width: 77px;
+}
+#arrow-2{
+	margin-top: 315px;
+}
+.arrows_and_text span {
+	margin-top: 110px;
+	line-height: 41px;
+	font-family: 'TTNormsPro-ExtraBoldItalic';
+	font-size: calc(21px + 25 * ((100vw - 320px) / (1080-320)));
+}
+
+
+/*third block*/
+
+.skills {
+	background-color: #1e2122;
+	min-height: 610px;
+}
+.question {
+	padding-top: 65px;
+}
+.skills .question span{
+	font-family: 'TTNormsPro-Black';
+	color: #a2d6b7;
+	font-size: calc(32px + 15 * ((100vw - 320px) / (1080-320)));
+	line-height: 48px;
+}
+.answers {
+	margin-top: 120px;
+}
+.answers li:before{
+	position: absolute;
+	margin-top: 3px;
+	content: url(../img/green-arrow.png);
+	margin-left: -35px;
+}
+.answers li{
+	color: #fff;
+	font-family: 'TTNormsPro-Italic';
+	font-size: calc(15px + 3 * ((100vw - 320px) / (1080-320)));
+}
+.answers p{
+	color: #fff;
+	font-family: 'TTNormsPro-BoldItalic';
+	font-size: calc(15px + 3 * ((100vw - 320px) / (1080-320)));
+}
+
+
+/*fourth block*/
+
+.stats {
+	background-color: #f0f3f6;
+	min-height: 620px;
+}
+.stats .container{
+	left: 50%;
+	transform: translate(-50%, 0);
+	position: absolute;
+	margin-top: -98px;
+}
+.stats .row {
+	--bs-gutter-x: 0rem;
+}
+.stats .today {
+	--bs-gutter-x: 1.5rem;
+}
+.stats .today-left span{
+	font-family: 'TTNormsPro-Black';
+	font-size: 24pt;
+	color: #8e89c1;
+}
+.stats .today-right {
+	max-width: 300px;
+}
+.stats .today-right span{
+	font-family: 'TTNormsPro-MediumItalic';
+	font-size: calc(11px + 5 * ((100vw - 320px) / (1080-320)));
+	color: #8e89c1;
+	line-height: 0 !important;
+}
+.stats-item {
+	margin-top: 38px !important;
+	vertical-align: middle;
+	flex-direction: column;
+	width: 190px !important;
+	height: 190px;
+	margin: 10px 15px;
+	background-color: #8e89c1;
+}
+.stats-item img{
+	position: absolute;
+	margin-top: 190px;
+}
+
+.yellow{
+	background-color: #ffd284;
+}
+.stats h1{
+	margin-top: 50px;
+	font-family: 'TTNormsPro-Black';
+	font-size: calc(40px + 7 * ((100vw - 320px) / (1080-320)));
+	padding-top: 15px;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 5px;
+}
+#h1-2 {
+	
+}
+#h1-4 {
+	line-height: 18px;
+}
+#h2-4 {
+	margin: auto;
+	margin-top: -30px;
+	max-width: 186px;
+}
+.stats h2{
+	font-family: 'TTNormsPro-Regular';
+	font-size: calc(15px + 3 * ((100vw - 320px) / (1080-320)));
+	text-align: center;
+	margin-top: -45px;
+	margin-left: 0px;
+	color: #fff;
+}
+/*.stats-item span {
+	justify-content: end !important;
+	font-family: 'TTNormsPro-Regular';
+	font-size: 13pt;
+	text-align: center;
+	color: #fff;
+	transform: rotate(-90deg);
+}*/
+
+/*fifth block*/
+
+.decision{
+	background-image: url(../img/bg-b5.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+  	background-attachment: scroll;
+  	min-height: 730px;
+}
+.decision .title-question {
+	width: 100%;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, 0);
+	position: absolute;
+	margin-top: -6%;
+}
+.decision .title-question span{
+	font-family: 'TTNormsPro-BoldItalic';
+	font-size: calc(29px + 73 * ((100vw - 320px) / (1080-320)));
+	color: #224449;
+}
+.decision .circuit{
+	margin: 0 25px;
+	max-width: 400px;
+}
+.decision .circuit span{
+	margin-top: -2px;
+	font-family: 'TTNormsPro-Black';
+	font-size: calc(19px + 2 * ((100vw - 320px) / (1080-320)));
+	color: #414242;
+	position: absolute;
+}
+.decision .list img{
+	max-width: 380px;
+}
+.circuit-description{
+	margin-top: 43px;
+	position: absolute;
+}
+.circuit-description .title{
+	margin-top: 0;
+}
+.circuit-description .image{
+	margin: auto;
+	margin-top: 0px;
+	width: 37px;
+	padding: 27px 0;
+}
+.circuit-description img{
+	width: 37px;
+	padding-bottom: 0;
+}
+.description{
+	margin: auto;
+	vertical-align: middle;
+}
+.description ul{
+	padding-left: 1rem;
+}
+.description .title{
+	width: 275px !important;
+	position: relative;
+	font-family: 'TTNormsPro-ExtraBoldItalic';
+	font-size: calc(12px + 2 * ((100vw - 320px) / (1080-320)));
+	color: #4f4f4f;
+}
+.description li{
+	width: 275px !important;
+	line-height: 12px !important;
+}
+.left-list .description ul {
+	margin-bottom: 2rem;
+}
+.left-list .description .text {
+	width: 275px !important;
+    position: absolute;
+    font-family: 'TTNormsPro-Regular';
+    font-size: calc(13px + 4 * ((100vw - 320px) / (1080-320)));
+    color: #4f4f4f;
+    line-height: 14px !important;
+}
+.right-list .circuit-description{
+
+}
+.right-list .circuit-description .li-class{
+	height: 100px;
+}	
+.right-list ul{
+	margin-bottom: 0;
+}
+.right-list span{
+	font-family: 'TTNormsPro-ExtraBoldItalic';
+	font-size: 10pt;
+	color: #4f4f4f;
+}
+
+
+/* sixth block */
+
+.outward {
+	background-color: #1e2122;
+	height: 541px;
+}
+.outward .container{
+	min-height: 610px;
+}
+.outward .row{
+	width: 108%;
+}
+.outward .slide{
+	position: absolute;
+	margin-top: -400px;
+	background-color: #8e89c1;
+	max-width: 620px;
+  	min-height: 650px;
+}
+.slide-title{
+	margin-top: 50px;
+	text-align: center;
+}
+.slide-title p{
+	font-family: 'TTNormsPro-Black';
+	font-size: calc(17px + 30 * ((100vw - 320px) / (1080-320)));
+	color: #fff;
+}
+.slider-inner{
+	position: relative;
+	max-width: 620px;
+	margin: auto;
+	min-height: 410px;
+}
+.slider-img img{
+	max-width: 549px;
+	max-height: 325px;
+}
+.prev, .next{
+	cursor: pointer;
+	transition: 0.6s ease;
+}
+.slides{
+	-webkit-animation-name:fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@-webkit-keyframes fame{
+	from{opacity:.4}
+	to{opacity: 1}
+}
+@keyframes fade{
+	from{opacity:.4}
+	to{opacity: 1}
+}
+.slider-inner{
+	display: inline-block;
+	margin-top: 100px;
+}
+.slider-inner .slider-text{
+
+}
+.slider-inner .slider-text p{
+	font-family: 'TTNormsPro-Regular';
+	font-size: calc(11px + 3 * ((100vw - 320px) / (1080-320)));
+	color: #fff;
+}
+.slider-inner .slider-img{
+	display: inline-block;
+}
+
+
+/* seventh block */
+
+
+.knowledge	{
+	background-color: #f0f3f6;
+	min-height: 620px;
+}
+.knowledge__title{
+	margin-top: 23px !important;
+}
+.knowledge .base{
+	text-shadow: 0px 0px 0px black, -6px 5px 0.1em #c9cccf;
+	font-family: 'TTNormsPro-Black';
+	font-size: calc(45px + 35 * ((100vw - 320px) / (1080-320)));
+	color: #fff;
+	padding-right: 5px;
+}
+.knowledge .know{
+	text-shadow: 0px 0px 0px black, -6px 5px 0.1em #c9cccf;
+	font-family: 'TTNormsPro-MediumItalic';
+	font-size: calc(45px + 35 * ((100vw - 320px) / (1080-320)));
+	color: #fff;
+	padding-left: 5px;
+}
+.content {
+	margin-top: 180px !important;
+	width: 730px !important;
+	overflow-x: hidden;
+	position: absolute;
+	/*min-height: 500px;*/
+}
+.slider-track{
+	transition: .2s;
+}
+.article-img{
+	margin-right: 20px;
+	max-width: 345px;
+	position: relative;
+}
+.article-img .hover{
+	left: 0;
+	bottom: 24%;
+	z-index: 10;
+	position: absolute;
+	transition: all .3s;
+	display: none !important;
+}
+.hover .link{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-top: -40%;
+	pointer-events:none;
+}
+.article:hover .hover{
+	display: block !important;
+}
+.article-text{
+	position: relative;
+	z-index: 11;
+	font-family: 'TTNormsPro-Regular';
+	font-size: calc(13px + 3 * ((100vw - 320px) / (1080-320)));
+}
+.knowledge .arrows{
+	margin-top: 180px !important;
+}
+
+.footer{
+	background-color: #1e2122;
+	min-height: 300px;
+}
+.form-class{
+	background-image: url(../img/form-fon.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 178px;
+	margin-top: -50px !important;
+}
+.form-class span{
+	position: absolute;
+	font-family: 'TTNormsPro-Bold';
+	margin-top: 70px;
+	font-size: calc(15px + 6 * ((100vw - 320px) / (1080-320)));
+	color: #fff;
+}
+.form-field {
+	margin-top: 110px;
+	min-width: 330px;
+	display: block;
+}
+.form-field input{
+	padding-right: 10px;
+	padding-left: 10px;
+	vertical-align: middle;
+	min-height: 40px;
+	width: 69.69%;
+	outline:none !important;
+	border: none !important;
+}
+.form-field button{
+	cursor: pointer;
+	vertical-align: middle;
+	width: 30%;
+	height: 40px;
+	background-color: #6d6ca3;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    outline: none !important;
+    border: 1px solid #6d6ca3;
+    font-family: 'TTNormsPro-Regular';
+	font-size: calc(12px + 4 * ((100vw - 320px) / (1080-320)));
+	color: #fff;
+}
+.link-btn{
+	margin-top: 27px;
+}
+.link-btn img{
+	width: 25px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.info{
+	margin-top: 25px;
+}
+.info img{
+	width: 13px;
+}
+.info span{
+	margin-left: 10px !important;
+	font-family: 'TTNormsPro-Regular';
+	font-size: 11pt;
+	color: #fff;
+}
+
+.unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+@font-face{
+	font-family: 'AvenirNextCyr-Regular';
+	src: url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-Black';
+	src: url('../fonts/TTNormsPro-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-BlackItalic';
+	src: url('../fonts/TTNormsPro-BlackItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-Bold';
+	src: url('../fonts/TTNormsPro-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-BoldItalic';
+	src: url('../fonts/TTNormsPro-BoldItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-ExtraBlack';
+	src: url('../fonts/TTNormsPro-ExtraBlack.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-ExtraBlackItalic';
+	src: url('../fonts/TTNormsPro-ExtraBlackItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-ExtraBold';
+	src: url('../fonts/TTNormsPro-ExtraBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-ExtraBoldItalic';
+	src: url('../fonts/TTNormsPro-ExtraBoldItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-ExtraLight';
+	src: url('../fonts/TTNormsPro-ExtraLight.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-ExtraLightItalic';
+	src: url('../fonts/TTNormsPro-ExtraLightItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-Italic';
+	src: url('../fonts/TTNormsPro-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-Light';
+	src: url('../fonts/TTNormsPro-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-LightItalic';
+	src: url('../fonts/TTNormsPro-LightItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-Medium';
+	src: url('../fonts/TTNormsPro-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-MediumItalic';
+	src: url('../fonts/TTNormsPro-MediumItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-Regular';
+	src: url('../fonts/TTNormsPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-Thin';
+	src: url('../fonts/TTNormsPro-Thin.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'TTNormsPro-ThinItalic';
+	src: url('../fonts/TTNormsPro-ThinItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
